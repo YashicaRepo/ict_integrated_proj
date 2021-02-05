@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(#88aadd,#4269a3 0%, #43abff 74%);
+}
+nav{
+    width: 80%;
+    position: sticky;
+    margin: 20px auto;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    flex-basis: 20%;
+}
+.logo img{
+    width: 350px;
+    height: 50px;
+}
+.navi-links{
+    flex: 1;
+    text-align: right;
+}
+.navi-links ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+.navi-links ul li a{
+    color: white;
+    text-decoration: none;
+}
+.information{
+    width: 1000px;
+    height: 1000px;
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translateY(-50%);
+}
+.features img{
+    width: 70px;
+}
+.features{
+    position: absolute;
+    display: flex;
+    color: white;
+}
+.features div{
+    margin-left: 30px;
+}
+.features div p{
+    margin-top: 8px;
+}
+
+#sleepTracking{
+    top: 500px;
+    right: 60px;
+}
+#heartRate{
+    top: 350px;
+    left: 550px;
+}
+#steps{
+    top: 350px;
+    left: 550px;
+}
+#caloriesBurnt{
+    bottom: 440px;
+    right: 60px;
+}
+#activityMonitoring{
+    top: 350px;
+    left: 550px;
+}
+#distanceTravelled{
+    top: 500px;
+    left: 550px;
+}
+
+.product{
+    width: 200px;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+.productThirdPair{
+    width: 200px;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+.productSecondPair{
+    width: 200px;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+#index{
+    position: absolute;
+    right: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+#secondpair{
+    position: absolute;
+    right: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center; 
+}
+#thirdpair{
+    position: absolute;
+    right: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center; 
+}
+.controls h2{
+    margin: 15px 0;
+    color: white;
+}
+#upbtn{
+    width: 35px;
+}
+#downbtn{
+    width: 35px;
+}
+#callicon{
+    width: 200px;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+#call{
+    margin-top: 15%;
+    margin-left: 40%;
+    color: white;
+}
+#description{
+    position: absolute;
+    display: flex;
+    color: white; 
+    margin-top: 30%;
+    margin-left: 55%;
+}
+#ringPageRing{
+    width: 200px;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+#login{
+    margin-top: 10%;
+    margin-left: 50%;
+    color: white;
+}
+#result{
+    margin-top: 15%;
+    color: white;
+}
